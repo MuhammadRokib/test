@@ -61,11 +61,11 @@ In this project I have tried make a web3 based application. Which is a **Crowd F
 
 ### Built With
 
-* Solidity
-* Node.js
-* JavaScript
-* Hardhat
-* Yarn
+- Solidity
+- Node.js
+- JavaScript
+- Hardhat
+- Yarn
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,25 +77,24 @@ In this project I have tried make a web3 based application. Which is a **Crowd F
 
 In order to clone and run the project these have to be installed in your machine.
 
-* [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
   
-  * Check if the installation was successfull or not with `git --version` and you should see a response like `git version x.x.x`
-
-* [Node.js](https://nodejs.org/en)
+  - Check if the installation was successfull or not with `git --version` and you should see a response like `git version x.x.x`
+- [Node.js](https://nodejs.org/en)
   
-  * You will be able run the following command if you install nodejs:
+  - You will be able run the following command if you install nodejs:
     
-    * `node --version` and get an ouput like: `vx.x.x`
-
-* [Yarn](https://yarnpkg.com/getting-started/install) instead of npm
+    - `node --version` and get an ouput like: `vx.x.x`
+- [Yarn](https://yarnpkg.com/getting-started/install) instead of npm
   
-  * You'll be able to run the following command if you install yarn:
+  - You'll be able to run the following command if you install yarn:
     
-    * `yarn --version` and get an output like: `x.x.x`
-    
-    * You might need to [install it with `npm`](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) or `corepack`
-
-* [MetaMask](https://metamask.io/) pin it after istallation in your default browser
+    - `yarn --version` and get an output like: `x.x.x`
+      
+    - You might need to [install it with `npm`](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) or `corepack`
+      
+- [MetaMask](https://metamask.io/) pin it after istallation in your default browser
+  
 
 ### Quickstart
 
@@ -216,24 +215,24 @@ Any funds sent to them on Mainnet or any other live network WILL BE LOST.
 ```
 
 - Then open `metamask` in your default browser and add `Hardhat-Localhost` network manually. Then import `Account-0` `Account-1` from above into your metamask. [See how]()
-
+  
 - Open the `index.html` file with `vscode `and then open the file with `live server`. The page will come up in your default browser.
-
+  
 - You can see a `connect button`, click on it. A metamask prompt will come up asking you to connect your accounts. Select the accounts you just imported. The accounts should be like this `Account x (0xf39...2666)` and `Account y (0x709...79c8)`
-
+  
 - Select those accounts and click `next` in the bottom and then click `connect`. The accounts are connected successfully.
-
+  
 - `Right click` on your mouse and click `inspect `then go to the `console `tab to see respnses from backend.
+  
 
-#### Interactions
+#### Interaction
 
-* **<u>Fund:</u>** Enter fund amount and click **Fund**. A metamask prompt will comeup asking you to confirm. After confirming you can see the message `Funded x ETH` in the `inspect console`
-
-* **<u>Balance:</u>** Click **Balance** to check the current balance of the fund account. The balance can be seen in the `inspect console`
-
-* **<u>Withdraw:</u>** Switch to `Account x (0xf39...2666)` then click withdraw. Then click `confirm` after that you can see a message `withdraw successful` in the `inspect console` Now if you check the balance of the contract it will be 0 after withdraw.
-
-
+- **<u>Fund:</u>** Enter fund amount and click **Fund**. A metamask prompt will comeup asking you to confirm. After confirming you can see the message `Funded x ETH` in the `inspect console`
+  
+- **<u>Balance:</u>** Click **Balance** to check the current balance of the fund account. The balance can be seen in the `inspect console`
+  
+- **<u>Withdraw:</u>** Switch to `Account x (0xf39...2666)` then click withdraw. Then click `confirm` after that you can see a message `withdraw successful` in the `inspect console` Now if you check the balance of the contract it will be 0 after withdraw.
+  
 
 **Note:** We can only withdraw from `Account x (0xf392666)` as it is an `owner only` function and the owner of the contract is `Account x (0xf392666)`
 
@@ -254,23 +253,39 @@ GitHub: [https://github.com/MohammadRokib](https://github.com/MohammadRokib)
 ## Acknowledgments
 
 - [Solidity-style-guide](https://docs.soliditylang.org/en/v0.8.13/style-guide.html)
+  
 - [Chai-Mathcers](https://ethereum-waffle.readthedocs.io/en/latest/matchers.html)
+  
 - [ParseEther](https://docs.ethers.org/v5/api/utils/display-logic/#utils-parseEther)
+  
 - [Big-Numbers](https://docs.ethers.org/v5/api/utils/bignumber/#BigNumber)
+  
 - [Transaction-Receipt](https://docs.ethers.org/v5/api/providers/types/#providers-TransactionResponse)
+  
 - [Solidity-console.log](https://hardhat.org/tutorial/debugging-with-hardhat-network#solidity-console-log)
+  
 - [Layout-of-State-Variables-in-Storage](https://docs.soliditylang.org/en/v0.8.13/internals/layout_in_storage.html)
+  
 - [Purpose of the "memory keyword"](https://stackoverflow.com/questions/33839154/)
+  
 - [Opcodes](https://github.com/crytic/evm-opcodes)
+  
 - [Conditional-ternary-Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
-
+  
 - [How-to-Send-Transactions-on-Ethereum](https://docs.alchemy.com/docs/how-to-send-transactions-on-ethereum)
+  
 - [window.ethereum Detect-the-provider](https://docs.metamask.io/wallet/how-to/use-mobile/#detect-the-provider)
+  
 - [Restricted & Urestricted methods](https://docs.metamask.io/wallet/reference/rpc-api/#restricted-methods)
+  
 - [Installing-Ethers](https://docs.ethers.org/v5/getting-started/#getting-started--importing--node-js)
+  
 - [Web3Provider](https://docs.ethers.org/v5/api/providers/other/#Web3Provider)
+  
 - [JsonRpcProvider](https://docs.ethers.org/v5/api/providers/jsonrpc-provider/)
+  
 - [Event-Emitter-Methods provider.once](https://docs.ethers.org/v5/api/providers/provider/#Provider-once)
+  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
