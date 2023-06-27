@@ -225,7 +225,7 @@ Any funds sent to them on Mainnet or any other live network WILL BE LOST.
 - `Right click` on your mouse and click `inspect `then go to the `console `tab to see respnses from backend.
   
 
-#### Interaction
+### Interaction
 
 - **<u>Fund:</u>** Enter fund amount and click **Fund**. A metamask prompt will comeup asking you to confirm. After confirming you can see the message `Funded x ETH` in the `inspect console`
   
